@@ -1,0 +1,8 @@
+{
+  "tokenSetOrder": [
+    "ws / references",
+    "ws / fundations",
+    "ws / components",
+    "POC"
+  ]
+}

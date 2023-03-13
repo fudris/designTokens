@@ -1,0 +1,64 @@
+{
+  "comp": {
+    "button": {
+      "primary": {
+        "frame": {
+          "large": {
+            "rest": {
+              "value": {
+                "fill": "#428A4E",
+                "verticalPadding": "18",
+                "horizontalPadding": "20",
+                "itemSpacing": "8",
+                "boxShadow": "{pocButton}"
+              },
+              "type": "composition"
+            },
+            "hover": {
+              "value": {
+                "fill": "#53AC62",
+                "verticalPadding": "18",
+                "horizontalPadding": "20",
+                "itemSpacing": "8",
+                "boxShadow": "{pocButton}"
+              },
+              "type": "composition"
+            },
+            "pressed": {
+              "value": {
+                "fill": "#75BD81",
+                "verticalPadding": "18",
+                "horizontalPadding": "20",
+                "itemSpacing": "8"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "label": {
+          "value": {
+            "fontFamilies": "Helvetica Neue",
+            "fontWeights": "Medium",
+            "fontSizes": "16",
+            "lineHeights": "20",
+            "fill": "#FFFFFF",
+            "letterSpacing": "2",
+            "textCase": "uppercase"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  },
+  "pocButton": {
+    "value": {
+      "color": "#00000026",
+      "type": "dropShadow",
+      "x": "0",
+      "y": "2",
+      "blur": "2",
+      "spread": "0"
+    },
+    "type": "boxShadow"
+  }
+}
